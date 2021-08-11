@@ -1,0 +1,51 @@
+li {
+    list-style-type: none;
+  }
+  
+ul {
+  padding: 0;
+  width: max-content;
+  margin: 0 auto;
+}
+  
+body {
+  text-align: center;
+  background-color:lightskyblue;
+}
+  
+img {
+  width: 10px;
+}
+
+.name {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.phone {
+  border-top: 1px solid gray;
+}
+  
+.gender {
+  margin-left: 10px;
+  padding: 1px;
+  float: right;
+}
+  
+input {
+  margin-right: 10px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.contact_info {
+  display: inline-block;
+  width: 20rem;
+  position: relative;
+  left: 21rem;
+  bottom: 3rem;
+  background-color: rgb(123, 191, 233);
+  border-radius: 5px;
+}
