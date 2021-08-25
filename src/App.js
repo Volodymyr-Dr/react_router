@@ -3,6 +3,7 @@ import {Switch, Route, NavLink} from 'react-router-dom';
 import PublicationsComponent from './publition/AllPublicationsComponent';
 import ContactsComponent from './contacts/ContactsComponent';
 import PhotosComponent from './photos/PhotosComponent';
+import NotFound from './NotFound/NotFound'
 
 const HomeComponent = () => {
   return <div>
@@ -29,6 +30,8 @@ function App() {
         <Route path="/photos" component={PhotosComponent} />
           
         <Route path="/contacts" component={ContactsComponent} />
+
+        <Route path="*" component={NotFound} />
       </Switch>
     </div>
   );
