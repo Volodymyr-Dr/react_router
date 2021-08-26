@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
+
 import Contact from './Contact';
 import contacts from './ContactsList';
+
 import './contact.css'
 
 

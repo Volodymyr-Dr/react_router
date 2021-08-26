@@ -1,9 +1,12 @@
-import './App.css';
+import React from 'react';
 import {Switch, Route, NavLink} from 'react-router-dom';
-import PublicationsComponent from './publition/AllPublicationsComponent';
-import ContactsComponent from './contacts/ContactsComponent';
-import PhotosComponent from './photos/PhotosComponent';
+
+import PublicationsComponent from './Publition/AllPublicationsComponent';
+import ContactsComponent from './Contacts/ContactsComponent';
+import PhotosComponent from './Photos/PhotosComponent';
 import NotFound from './NotFound/NotFound'
+
+import './App.css';
 
 const HomeComponent = () => {
   return <div>
