@@ -20,19 +20,19 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <NavLink exact to="/" activeClassName="selected" className="link">Home</NavLink>
-        <NavLink to="/publications" activeClassName="selected" className="link">Publications</NavLink>
-        <NavLink to="/photos" activeClassName="selected" className="link">Photos</NavLink>
-        <NavLink to="/contacts" activeClassName="selected" className="link">Contacts</NavLink>
+        <NavLink exact to="/react_router/" activeClassName="selected" className="link">Home</NavLink>
+        <NavLink to="/react_router/publications" activeClassName="selected" className="link">Publications</NavLink>
+        <NavLink to="/react_router/photos" activeClassName="selected" className="link">Photos</NavLink>
+        <NavLink to="/react_router/contacts" activeClassName="selected" className="link">Contacts</NavLink>
       </nav>
       <Switch>
-        <Route exact path="/" component={HomeComponent} />
+        <Route exact path="/react_router/" component={HomeComponent} />
           
-        <Route path="/publications" component={PublicationsComponent} />
+        <Route path="/react_router/publications" component={PublicationsComponent} />
           
-        <Route path="/photos" component={PhotosComponent} />
+        <Route path="/react_router/photos" component={PhotosComponent} />
           
-        <Route path="/contacts" component={ContactsComponent} />
+        <Route path="/react_router/contacts" component={ContactsComponent} />
 
         <Route path="*" component={NotFound} />
       </Switch>
